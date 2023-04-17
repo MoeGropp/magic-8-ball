@@ -24,7 +24,7 @@ $(document).ready(function() {
             var question = prompt ("Ask a Yes/No question!");
             magic8Ball.askQuestion(question);
         }, 500)
-    };
+    });
 
     $("#questionButton").click(onClick);
 });

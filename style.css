@@ -11,3 +11,45 @@ body{
     max-width: 960px;
     margin: 0 auto;
 }
+.ball, .button{
+margin: 0 auto;
+}
+.answer{
+    position: absolute;
+    width: 14%;
+    top: 50%;
+    left:50%;
+    margin-top: 60px;
+    margin-left: -65px;
+    font: 16px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ebd9d9;
+    text-transform: capitalize;
+    text-align: center;
+}
+#questionButton{
+    font: 26px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: none;
+    color: #ebd9d9;
+    background-color: #f16059;
+    padding: 10px 75px;
+    display: block;
+    margin: 0 auto;
+}
+header{
+    padding: 0.25em;
+    text-align: center;
+}
+header span{
+    font-size: 60px;
+    color: #f16059;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+foster p{
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 12px;
+}
