@@ -15,8 +15,6 @@ $(document).ready(function() {
         var answer = this.listOfAnswers[randomIndex];
 
         $("#answer").text(answer);
-        console.log(question);
-        console.log(answer);
         
     };
     var onClick = (function(){

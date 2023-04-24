@@ -1,5 +1,18 @@
+:root {
+--main-font: "Montserrat", sans-serif;
+}
+@media{ 
+    .ball{
+        align-content: center;
+        margin-left: auto;
+    }
+    .answer{
+        margin-left: 60px;
+    }
+    
+    }
 body{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:var(--main-font);
     color: #454545;
     margin: 0;
     padding: 0;
@@ -12,22 +25,23 @@ body{
     margin: 0 auto;
 }
 .ball, .button{
-margin: 0 auto;
+    margin: 0 auto;
 }
+
 .answer{
     position: absolute;
     width: 14%;
     top: 50%;
     left:50%;
     margin-top: 60px;
-    margin-left: -65px;
-    font: 16px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 3px;
+    font: 16px var(--main-font); 
     color: #ebd9d9;
     text-transform: capitalize;
     text-align: center;
 }
 #questionButton{
-    font: 26px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 26px var(--main-font);
     border-radius: 5px;
     border: none;
     color: #ebd9d9;
@@ -37,7 +51,7 @@ margin: 0 auto;
     margin: 0 auto;
 }
 header{
-    padding: 0.25em;
+    padding-top: 0.25em;
     text-align: center;
 }
 header span{
@@ -45,10 +59,10 @@ header span{
     color: #f16059;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--main-font);
 }
 footer p{
-    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:  var(--main-font);
     text-align: center;
     text-transform: capitalize;
     font-size: 12px;
