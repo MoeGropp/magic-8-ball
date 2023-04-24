@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    
     var magic8Ball = {};
     magic8Ball.listOfAnswers = ["No", "Yes", "I don't think so...", "Of course!", "Indubitably", "In your dreams."];
     $("#answer").hide();
@@ -14,6 +15,8 @@ $(document).ready(function() {
         var answer = this.listOfAnswers[randomIndex];
 
         $("#answer").text(answer);
+        console.log(question);
+        console.log(answer);
         
     };
     var onClick = (function(){
